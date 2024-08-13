@@ -52,7 +52,7 @@ function Shop() {
 
     const incQuantity = (itemId) => {
         const newOrder = order.map((el) => {
-            if (el.id == itemId) {
+            if (el.id === itemId) {
                 const newQuantity = el.quantity + 1;
                 return {
                     ...el,
@@ -67,7 +67,7 @@ function Shop() {
 
     const decQuantity = (itemId) => {
         const newOrder = order.map((el) => {
-            if (el.id == itemId) {
+            if (el.id === itemId) {
                 const newQuantity = el.quantity - 1;
                 return {
                     ...el,

@@ -3,7 +3,7 @@ function Header() {
         <nav className=" #6a1b9a purple darken-3">
             <div className="nav">
                 <a
-                    href="#"
+                    href="/"
                     className="brand-logo"
                 >
                     React shop
@@ -13,7 +13,13 @@ function Header() {
                     className="right hide-on-med-and-down"
                 >
                     <li>
-                        <a href="!#">Repo</a>
+                        <a
+                            href="https://github.com/Pavel-Bagutski?tab=repositories"
+                            target="blank"
+                            rel="noopener"
+                        >
+                            Repo
+                        </a>
                     </li>
                 </ul>
             </div>

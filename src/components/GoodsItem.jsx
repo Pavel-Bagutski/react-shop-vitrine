@@ -9,7 +9,6 @@ function GoodsItem(props) {
         price,
         firstReleaseDate,
         addToBasket = Function.prototype,
-        handleBasketShow = Function.prototype,
     } = props;
 
     const id = mainId;
@@ -28,7 +27,7 @@ function GoodsItem(props) {
             className="card"
             style={{
                 width: "350px",
-                height: "450px",
+                height: "550px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
@@ -37,7 +36,7 @@ function GoodsItem(props) {
         >
             <div
                 className="card-image"
-                style={{ height: "200px" }}
+                style={{ height: "400px" }}
             >
                 <img
                     src={full_background}
