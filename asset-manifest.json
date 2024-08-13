@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-shop-vitrine/static/css/main.772f3a80.css",
+    "main.js": "/react-shop-vitrine/static/js/main.65cdd0d4.js",
+    "index.html": "/react-shop-vitrine/index.html",
+    "main.772f3a80.css.map": "/react-shop-vitrine/static/css/main.772f3a80.css.map",
+    "main.65cdd0d4.js.map": "/react-shop-vitrine/static/js/main.65cdd0d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.772f3a80.css",
+    "static/js/main.65cdd0d4.js"
+  ]
+}
